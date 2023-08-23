@@ -126,27 +126,28 @@
             <!--Section: Content-->
             <section class="dark-grey-text">
           
-              <div class="row pr-lg-5">
-                <div class="col-md-7 mb-4">
+              <div class="row pr-lg-5 ">
           
-                  <div class="view">
-                    <img src="about.1.png" class="img-fluid" alt="smaple image">
-                  </div>
-          
-                </div>
 
 <div class="bols rounded-circle" ></div>
 
-                <div class="col-md-5 d-flex align-items-center">
+                <div class="col-md-5 d-flex align-items-center order-1 order-lg-0">
                   <div>
                     
-                    <h1 class="font-weight-bold mb-4 Font_shine " style="font-family: 'Kanit', sans-serif;"  data-heading="SHINE">I'M&nbsp;Ganesh&nbsp;Dutt</h1>
+                    <h1 class="font-weight-bold mb-4 Font_shine text-uppercase" style="font-family: 'Kanit', sans-serif;"  data-heading="I'M"> &nbsp;I AM <span id="element"></span></h1>
           
                       <p class="text-white mt-2">I am a motivated and enthusiastic fresher web developer, ready to leverage my skills in HTML, CSS,Bootstrap,Tailwind CSS and JavaScript to create dynamic and visually appealing websites.</p>
           
                      <a href="tel:+917078404837"> <button type="button" class="btn sec-1-btn">Contect Me</button></a>
           
                   </div>
+                </div>
+                <div class="col-md-7 mb-4 order-0 order-lg-1">
+          
+                  <div class="view">
+                    <img src="Programming (1).gif" class="img-fluid rounded-3" alt="smaple image">
+                  </div>
+          
                 </div>
               </div>
           
@@ -592,8 +593,7 @@
 
 
 <!-- ========== Start footer ========== -->
-<footer class="site-footer" style="background: linear-gradient(144deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%);
-" >
+<footer class="site-footer" >
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6">
@@ -656,6 +656,14 @@
 </div>
 </div>
 <!-- ========== End footer ========== -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
+<script>
+  var typed = new Typed('#element', {
+  strings: ['Ganesh Dutt', 'Web Developer', 'Web Designer'],
+  typeSpeed: 100,
+  loop: true,
+});
+</script>
     </body>
     </html>

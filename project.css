@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Baloo+2:wght@500&family=Lexend:wght@500&family=Roboto:wght@500&family=Ubuntu:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
     color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none !important;
+
+
 }
 html {
   scroll-behavior: smooth;
@@ -9,7 +15,9 @@ html {
 
 body{
     /* background: #74ebd5;  fallback for old browsers */
-    background: linear-gradient(113deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%);
+    background-image: linear-gradient(85deg, #b68057 10%, #000000 90%);
+
+    /* background: linear-gradient(113deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%); */
     
     /* height: 100vh; */
 }
@@ -36,8 +44,9 @@ body{
   }
   .sec-1-logo{
 
-  font-weight: 900;
-
+    font-weight: 900;
+    font-size: 30px;
+  cursor: pointer;
   background: linear-gradient(90deg, rgba(129,132,232,1) 0%, rgba(158,186,230,1) 18%, rgba(194,191,226,1) 46%, rgba(237,197,235,1) 69%, rgba(238,174,202,1) 87%, rgba(238,174,202,1) 87%, rgba(255,134,160,1) 100%);
   -webkit-background-clip: text;
   color: transparent;

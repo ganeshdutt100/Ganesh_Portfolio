@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     color: white;
+    text-decoration: none !important;
 }
 html {
   scroll-behavior: smooth;
 }
 
 body{
-  background: linear-gradient(144deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%);
+  /* background: linear-gradient(144deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%); */
+  background-image: linear-gradient(40deg,#b68057 10%, #0a0a0a 90%);
 
     
     /* height: 100vh; */
@@ -36,8 +38,10 @@ body{
   }
   .sec-1-logo{
 
-  font-weight: 900;
 
+  font-weight: 900;
+  font-size: 30px;
+cursor: pointer;
   background: linear-gradient(90deg, rgba(129,132,232,1) 0%, rgba(158,186,230,1) 18%, rgba(194,191,226,1) 46%, rgba(237,197,235,1) 69%, rgba(238,174,202,1) 87%, rgba(238,174,202,1) 87%, rgba(255,134,160,1) 100%);
   -webkit-background-clip: text;
   color: transparent;
@@ -143,7 +147,7 @@ body{
    .Font_shine {
 	background-size: contain;
 	/* text-align: center; */
-	color: rgb(247, 247, 247);
+	color: rgb(218, 153, 23);
     font-family: 'Caprasimo', cursive;
 
 }
@@ -153,6 +157,8 @@ body{
 	left: 0;
 	top: 0;
 	width: 100%;
+
+  
 	background: linear-gradient(
 		45deg,
 		rgba(255, 255, 255, 0) 45%,
@@ -184,7 +190,8 @@ body{
 }
 /* Not needed for demo */
 @font-face {
-	font-family: "Open sans";
+	font-family: 'Baloo 2', cursive;
+
 }
 
 .Font_shine {
@@ -394,7 +401,9 @@ transform: translatey(-50px);
 /* footer */
 .site-footer
 {
-  background: linear-gradient(144deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%);
+  background-image: linear-gradient(45deg, #5c5757 10%, #0b0b0a 90%); 
+
+  /* background: linear-gradient(144deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%); */
 
   padding:45px 0 20px;
   font-size:15px;
