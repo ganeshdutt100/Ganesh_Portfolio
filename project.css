@@ -4,7 +4,7 @@
     padding: 0;
     color: white;
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     text-decoration: none !important;
 
 
@@ -31,17 +31,39 @@ body{
   width: .625rem;
 }
 
+
+
+.hidden{
+  opacity: 0;
+  filter: blur(2.5px);
+  /* transform: translateX(-5%); */
+  transform: translateY(10%);
+  transition: all .7s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  /* transform: translateX(0); */
+  transform: translateY(0);
+}
+
 /*
 ---------------------------------------------->
  sec-1
  --------------------------------------------->
   */
   .nav-background{
-    background: url(bg-2.jpg) no-repeat ;
-    background-size: cover;
-    height: auto;
+    padding: 4px 0 !important;
     
-  }
+      transition:all 2s ease-in-out ;
+    }
+    .on-scroll{
+      background: url(bg-2.jpg) no-repeat ;
+      background-size: cover;
+      box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
+      transition:all .15s ease-in-out ;
+  /* padding-bottom: 30px; */
+    }
   .sec-1-logo{
 
     font-weight: 900;

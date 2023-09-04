@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Baloo+Bhaina+2&family=Roboto:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -25,29 +26,76 @@ body{
   width: .625rem;
 }
 
+
+
+
+
+
+.jarallax{
+ height: 100vh;
+ background-image: url('n-about-1.jpg'); 
+ background-repeat: no-repeat; 
+ background-size: cover; 
+ background-position: center center;
+}
+
+
+
+
+
+.hidden{
+  opacity: 0;
+  filter: blur(2.5px);
+  /* transform: translateX(-5%); */
+  transform: translateY(10%);
+  transition: all .7s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  /* transform: translateX(0); */
+  transform: translateY(0);
+}
+
 /*
 ---------------------------------------------->
  sec-1
  --------------------------------------------->
   */
   .nav-background{
-    background: url(bg-2.jpg) no-repeat ;
-    background-size: cover;
-    height: auto;
+    padding: 4px 0 !important;
+      height: auto;
+      transition:all 2s ease-in-out ;
+    }
+    .on-scroll{
+      background: url(bg-2.jpg) no-repeat ;
+      background-size: cover;
+      box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
+      transition:all .15s ease-in-out ;
+  /* padding-bottom: 30px; */
+    }
+ 
+    .sec-1-logo{
+      font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: 900;
+    font-size: 32px;
+  cursor: pointer;
+    background: linear-gradient(90deg, rgba(129,132,232,1) 0%, rgba(158,186,230,1) 18%, rgba(194,191,226,1) 46%, rgba(237,197,235,1) 69%, rgba(238,174,202,1) 87%, rgba(238,174,202,1) 87%, rgba(255,134,160,1) 100%) ;
+    -webkit-background-clip: text;
+    color: transparent ; 
     
+    /* text-shadow: 10px 20px 29px white; */
+  
   }
-  .sec-1-logo{
-
-
-  font-weight: 900;
-  font-size: 30px;
-cursor: pointer;
-  background: linear-gradient(90deg, rgba(129,132,232,1) 0%, rgba(158,186,230,1) 18%, rgba(194,191,226,1) 46%, rgba(237,197,235,1) 69%, rgba(238,174,202,1) 87%, rgba(238,174,202,1) 87%, rgba(255,134,160,1) 100%);
-  -webkit-background-clip: text;
-  color: transparent;
-  /* text-shadow: 10px 20px 29px white; */
-
-}
+  @media screen and (min-width:400px) {
+    
+    .sec-1-logo{
+    font-size: 65px;
+  
+    }
+  
+  
+  }
 .sec-1-logo:hover{
     background: linear-gradient(90deg, rgba(129,132,232,1) 0%, rgba(158,186,230,1) 18%, rgba(194,191,226,1) 46%, rgba(237,197,235,1) 69%, rgba(238,174,202,1) 87%, rgba(238,174,202,1) 87%, rgba(255,134,160,1) 100%);
     -webkit-background-clip: text;
