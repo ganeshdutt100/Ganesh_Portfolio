@@ -12,6 +12,7 @@ html {
 body{
   /* background: linear-gradient(144deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%); */
   background-image: linear-gradient(40deg,#b68057 10%, #0a0a0a 90%);
+  background: linear-gradient(to left, #000000, #434343);
 
     
     /* height: 100vh; */
@@ -47,7 +48,7 @@ body{
   opacity: 0;
   filter: blur(2.5px);
   /* transform: translateX(-5%); */
-  transform: translateY(10%);
+  transform: translateY(20%);
   transition: all .7s;
 }
 .show{
@@ -68,11 +69,27 @@ body{
       transition:all 2s ease-in-out ;
     }
     .on-scroll{
-      background: url(bg-2.jpg) no-repeat ;
-      background-size: cover;
+      /* background: url(bg-2.jpg) no-repeat ;
+      background-size: cover; */
+      background-color: #49494969;
+      backdrop-filter: blur(10px);
       box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
       transition:all .15s ease-in-out ;
+      /* border-radius: 0px 0px 58px 64px; */
   /* padding-bottom: 30px; */
+    }
+  
+    @media screen and (min-width: 768px) {
+      .on-scroll{
+        /* background: url(bg-2.jpg) no-repeat ;
+        background-size: cover; */
+        background-color: #49494969;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
+        transition:all .15s ease-in-out ;
+        border-radius: 0px 0px 64px 64px;
+    /* padding-bottom: 30px; */
+      }
     }
  
     .sec-1-logo{

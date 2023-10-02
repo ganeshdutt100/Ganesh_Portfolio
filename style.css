@@ -6,6 +6,10 @@
   
   text-decoration: none !important;
 }
+body{
+  overflow-x: hidden;
+  
+}
 html {
   scroll-behavior: smooth;
 }
@@ -29,7 +33,7 @@ body{
   opacity: 0;
   filter: blur(2.5px);
   /* transform: translateX(-5%); */
-  transform: translateY(10%);
+  transform: translatey(20%);
   transition: all .7s;
 }
 .show{
@@ -50,17 +54,35 @@ body{
  sec-1
  --------------------------------------------->
   */
-  .nav-background{
+  .nav-background {
   padding: 4px 0 !important;
     height: auto;
     transition:all 2s ease-in-out ;
+    
+  
   }
   .on-scroll{
-    background: url(bg-2.jpg) no-repeat ;
-    background-size: cover;
+    /* background: url(bg-2.jpg) no-repeat ;
+    background-size: cover; */
+    background-color: #49494969;
+    backdrop-filter: blur(10px);
     box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
     transition:all .15s ease-in-out ;
+    /* border-radius: 0px 0px 58px 64px; */
 /* padding-bottom: 30px; */
+  }
+
+  @media screen and (min-width: 768px) {
+    .on-scroll{
+      /* background: url(bg-2.jpg) no-repeat ;
+      background-size: cover; */
+      background-color: #49494969;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
+      transition:all .15s ease-in-out ;
+      border-radius: 0px 0px 64px 64px;
+  /* padding-bottom: 30px; */
+    }
   }
   .sec-1-logo{
     font-family: 'Baloo Bhaina 2', cursive;
@@ -96,6 +118,7 @@ cursor: pointer;
     color: white;
     text-decoration: none;
     transition: 400ms all linear;
+    
     /* font-family: 'Kanit', sans-serif; */
     /* font-family: 'Baloo 2', cursive; */
     font-weight: 500;
@@ -104,6 +127,7 @@ cursor: pointer;
      color: #cba16b;
      text-shadow: 1px -1px 17px #cba16b;
      transform: scale(1.1);
+     
   }
 
 
@@ -838,7 +862,7 @@ margin-bottom: 100px;
 
 .sec-7{
   /* background: linear-gradient(112deg, rgba(13,13,13,1) 6%, rgba(57,39,12,1) 48%, rgba(228,138,10,1) 100%); */
-  background-image: linear-gradient(45deg, #b68057 10%, #000000 90%);
+  background-image: black;
 padding-top: 100px;
     margin-top: -25px;
     padding-bottom: 50px ;
@@ -848,7 +872,7 @@ padding-top: 100px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   /* border: 1px solid white; */
-  border-top: 5px solid rgba(0, 0, 0, 0.731);
+  border-top: 5px solid rgba(217, 140, 24, 0.731);
   backdrop-filter: blur(20px);
 }
 
