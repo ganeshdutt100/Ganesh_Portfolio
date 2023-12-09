@@ -81,14 +81,15 @@ body{
   
     @media screen and (min-width: 768px) {
       .on-scroll{
-        /* background: url(bg-2.jpg) no-repeat ;
-        background-size: cover; */
-        background-color: #49494969;
-        backdrop-filter: blur(10px);
-        box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
-        transition:all .15s ease-in-out ;
-        border-radius: 0px 0px 64px 64px;
-    /* padding-bottom: 30px; */
+        background-color: #57555569;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.03);
+      transition: all .15s ease-in-out;
+      border-radius: 54px;
+      /* padding-bottom: 30px; */
+      margin-top: 7px;
+      margin-left: 12px;
+      width: 98% !important;
       }
     }
  
@@ -102,6 +103,7 @@ body{
     color: transparent ; 
     
     /* text-shadow: 10px 20px 29px white; */
+   backdrop-filter: blur(40px);
   
   }
   @media screen and (min-width:400px) {
