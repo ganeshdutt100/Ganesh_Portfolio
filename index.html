@@ -708,15 +708,15 @@
 
 
       <div class="row">
-        <div class="col-12 col-lg-6 order-1 ">
-          <img src="ganesh-1-1-new.png" alt="" class="new-add-sec-7-img d-lg-none img-fluid">
+        <div class="col-12 col-lg-6 order-1 order-0 d-none d-lg-block">
+          <img src="newImgGanesh2.jpg" alt="" class="new-add-sec-7-img d-lg-none img-fluid">
           <img src="newImgGanesh2.jpg" alt="" class="new-add-sec-7-img d-none d-lg-block img-fluid">
 
         </div>
 
-        <div class="col-lg-6 col-12 mt-5 mt-lg-0 contact-page py-4 hidden"
-          style="background-image: url('ContactBackgroundPattern.jpg'); background-size: cover; backdrop-filter: blur(10px);">
-          <form style="width: 75%;" class="ms-5 mt-lg-5 pt-lg-5">
+        <div class="col-lg-6 col-12 mt-5 mt-lg-0 contact-page py-4 hidden d-lg-none"
+          style="background-image: url('./newImgGanesh2.jpg'); background-size: cover; backdrop-filter: blur(10px); ">
+          <form style="width: 75%; backdrop-filter: blur(5px); " class="ms-5 mt-lg-5 pt-lg-5   p-5 rounded">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label text-white hidden">Name</label>
               <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -738,18 +738,23 @@
               <label class="form-check-label text-white" for="exampleCheck1">Check me out</label>
             </div>
 
-            <a href="contact.html" class="text-decoration-none ">
-              <div class="btn button-sec-7 type1"> View Work </div>
-            </a>
-
-            <!-- <a href="contact.html"> <button type="submit" class="btn  button-sec-7 type1">Submit</button></a>  -->
-          </form>
+            <a href="./index.html" onclick="window.alert('Your message has been sent')"" class=" text-decoration-none ">
+              <div class=" btn button-sec-7 type1"> View Work
         </div>
+        </a>
 
-
+        <!-- <a href="contact.html"> <button type="submit" class="btn  button-sec-7 type1">Submit</button></a>  -->
+        </form>
+      </div>
+      <div class="col-lg-6 col-12 mt-5 mt-lg-0 contact-page py-4 hidden "
+        style="background:url('./ContactBackgroundPattern.jpg');"> <iframe class="d-none d-lg-block rounded-4"
+          src="./newContactPage.html" frameborder="0" width="100%" height="500px" style="border: none;"></iframe>
 
       </div>
+
+
     </div>
+  </div>
 
   </div>
 
